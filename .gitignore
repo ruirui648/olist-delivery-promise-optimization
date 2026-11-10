@@ -1,0 +1,9 @@
+# 解压出来的数据目录不入库
+data/
+# 压缩包随仓库发布（44MB）；若改用 GitHub Releases 存放，把下一行取消注释
+# data.zip
+.workbuddy/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+output/*.csv
